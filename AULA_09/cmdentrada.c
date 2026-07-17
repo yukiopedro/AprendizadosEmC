@@ -5,7 +5,7 @@ int main() {
     int altura;
 
     //Algoritmo para calcular a área de um triângulo
-
+    //diferença entre scanf e fgets: scanf lê apenas até o primeiro espaço em branco, enquanto fgets lê a linha inteira, incluindo espaços em branco.
     printf("Digite o valor da base: ");
     scanf("%d", &base);
     printf("\nDigite o valor da altura: ");
